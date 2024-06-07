@@ -64,10 +64,7 @@ class DataTransformation:
                 ("cat_pipelines",cat_pipeline,categorical_columns)
 
                 ]
-
-
             )
-
             return preprocessor
         
         except Exception as e:
